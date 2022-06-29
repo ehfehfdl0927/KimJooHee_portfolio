@@ -9,8 +9,6 @@
   
   <title>김주희의 포트폴리오</title>
 
-  
-  
   <link rel="stylesheet" type="text/css" href="../assets/css/themify-icons.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
@@ -40,7 +38,7 @@
   </div>
   
 
-    <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_banner.jpg)">
+    <div class="vg-page page-home" id="home">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -71,16 +69,15 @@
     </div> <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
-      <div>
-      <h5>안녕하세요</h5>
-      <img src="../assets/img/sparkle.png" style="width: 40px; margin: 0; padding: 0;">
+      <div class="home-header">
+      <h4>안녕하세요</h4>
+      <img src="../assets/img/sparkle.png">
       <div class="fw-light mb-4" style="padding: 0 1em">
-      <h2 style="border-bottom: solid rgba(75, 137, 220, 0.5) 0.06em; padding: 0px;">
-      노력하는 Developer</h2>
+      <h2 id="header_item1">노력하는 Developer</h2>
     <h2>김주희의 포트폴리오입니다.</h2></div>
     </div>
     
-      <div class="badge" style="background-color: rgba(75, 137, 220, 0.5); color: white;">Web Developer</div>
+      <div class="badge" id="header_item2">Web Developer</div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
@@ -106,14 +103,13 @@
             <img src="../assets/img/person.jpg" alt="">
           </div>
         </div>
-        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h5 class="fw-light" style="font-weight: 500;">항상 일을 믿고 맡길 수 있는 든든한 전문인력이 되겠습니다.</h5>
-          <h7 class="fg-theme mb-3" style="font-weight: 500;">Web Developer</h7>
-          <p class="text-muted" style="line-height: 160%; font-size: 95%;">
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight about_div">
+          <h5 class="fw-light">항상 일을 믿고 맡길 수 있는 든든한 전문인력이 되겠습니다.</h5>
+          <h6 class="fg-theme mb-3">-Web Developer</h6>
+          <p class="text-muted">
             안녕하세요. 맡은 일에 대해 언제나 애정과 책임감을 가지고 최선을 다해 헌신하는 신입 개발자 김주희입니다.<br>
             저는 자바를 바탕으로 데이터베이스와 JSP, 스프링 등 웹과 관련된 여러 기술을 공부하고 응용하여 스스로 프로젝트를 제작하며 자기 계발을 수행해왔습니다. 또한 팀을 이루어 역할을 분배하고 GitHub를 이용해 웹 프로젝트 협업을 진행한 경험이 있습니다.<br>
             이러한 협업 경험을 통해 다져진 팀워크와 코딩 역량을 실무에서 적합하게 응용하여 직무를 수행함으로써, 새로운 경험과 역량을 쌓으며 훌륭한 개발자로서 이바지하겠습니다. 잘 부탁드립니다.
-
           </p>
           <ul class="theme-list">
             <li><b>이름:</b> 김주희</li>
@@ -141,12 +137,11 @@
       
 
     <div class="row mt-3" >
-        <div width="80%" style="margin: 0 auto;  text-align: center;">
-        <p class="text-center wow fadeInUp" style="margin-top:2%; margin-bottom: 0; text-shadow: 2px 2px 4px gray; color: white; font-weight: 600;
-        font-size: 1.3em;">Back-End</p>
+        <div class="skils_div" width="80%">
+        <p class="text-center wow fadeInUp skils_area">Back-End</p>
        
-        <div class="" style="display: inline-block; padding: 1em"  width="10%" >
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span><img src="../assets/img/java-icon.png"></span>
@@ -161,8 +156,8 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/spring-icon.png"></span>
@@ -177,8 +172,8 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style=" border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/jsp-icon.png"></span>
@@ -194,8 +189,8 @@
         </div>
         
         
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/MySQL.png"></span>
@@ -217,12 +212,11 @@
 
 
     <div class="row mt-3" >
-        <div width="80%" style="margin: 0 auto;  text-align: center;">
-        <p class="text-center wow fadeInUp" style="margin-top:2%; margin-bottom: 0; text-shadow: 2px 2px 4px gray; color: white; font-weight: 600;
-        font-size: 1.3em;">Front-End</p>
+        <div width="80%" class="skils_div">
+        <p class="text-center wow fadeInUp skils_area">Front-End</p>
        
-        <div class="" style="display: inline-block; padding: 1em"  width="10%" >
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%" >
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span><img src="../assets/img/html-icon.png"></span>
@@ -237,8 +231,8 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/css-icon.png"></span>
@@ -253,11 +247,11 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style=" border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
-              <span ><img style="height: 50%;" src="../assets/img/js.png"></span>
+              <span><img style="height: 50%;" src="../assets/img/js.png"></span>
 
             </div>
             <div class="icon icon_hover">
@@ -270,8 +264,8 @@
         </div>
         
         
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/jquery-icon.png"></span>
@@ -285,8 +279,8 @@
             
           </div>
         </div>
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img style="height: 50%;" src="../assets/img/bootstrap.png"></span>
@@ -306,12 +300,11 @@
 
 
     <div class="row mt-3" >
-        <div width="80%" style="margin: 0 auto;  text-align: center;">
-        <p class="text-center wow fadeInUp" style="margin-top:2%; margin-bottom: 0; text-shadow: 2px 2px 4px gray; color: white; font-weight: 600;
-        font-size: 1.3em;">Etc</p>
+        <div width="80%" class="skils_div">
+        <p class="text-center wow fadeInUp skils_area">Etc</p>
        
-        <div class="" style="display: inline-block; padding: 1em"  width="10%" >
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%" >
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span><img src="../assets/img/git-icon.png"></span>
@@ -326,8 +319,8 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style="border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
               <span ><img src="../assets/img/docker.png"></span>
@@ -342,29 +335,24 @@
           </div>
         </div>
 
-        <div class="" style="display: inline-block; padding: 1em;"  width="10%">
-          <div class="card card-service wow fadeInUp skils_icon" style=" border-radius:50%">
+        <div class="skils_item" width="10%">
+          <div class="card card-service wow fadeInUp skils_icon">
             <div class="icon basic_div">
               
-              <span><img style="height: 50%;" src="../assets/img/aws-icon.png"></span>
+              <span><img class="big_icon" style="height: 50%;" src="../assets/img/aws-icon.png"></span>
 
             </div>
-            <div class="icon icon_hover" style="text-align: center;">
+            <div class="icon icon_hover">
               
               <span>AWS</span>
 
             </div>
             
           </div>
-        </div>
-        
-        
-      
+        </div>  
+
       </div>
     </div>
-
-
-
 
     </div>
   </div>
@@ -386,45 +374,44 @@
       
 
 
-          <div style=" border-radius: 20px; margin: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+          <div class="projects_div">
             <div class="grid-item">
               <div class="row" style="text-align: center;" >
-                <div class="col-md-6" data-src="../assets/img/system_img.png" 
+                <div class="col-md-6 project_img pro_img" data-src="../assets/img/system_img.png" 
                 data-fancybox data-caption="<h5>시스템 흐름</h5>"
-                style="display: inline-block;">
+                style="display: inline-block; text-align: center; object-fit: cover; font-size: 0;">
                   
-                    <img src="../assets/img/system_img.png" alt="" style="cursor: pointer; height: auto;">
+                    <img style="vertical-align: middle; width: 100%; height: auto; margin: 0;" src="../assets/img/system_img2.png">
                   
                 </div>
                 <div class="col-md-6" style="display: inline-block;">
-                    <div  style="margin: 0; width: 100%; height: 100%; padding: 5%; text-align: left; font-size: 1em;">
-                    CMD(개발자 로드맵: Community Mapping Developer)프로젝트는 Spring Boot을 이용한 MVC 패턴의 커뮤니티 웹 프로젝트로, HTML, CSS, Bootstrap, JavaScript JQuery, 템플릿 엔진 Thymeleaf를 사용하여 웹 페이지를 구성하였고 데이터베이스로 MySQL을 사용했습니다. 
-                    또한 GitHub와 Docker 컨테이너를 활용하여 더욱 수월하게 테스트작업과 협업을 진행하였습니다.
+                    <div style="margin: 0; width: 100%; height: 100%; padding: 5%; text-align: left; font-size: 1em;">
+                      CMD(개발자 로드맵: Community Mapping Developer)프로젝트는 Spring Boot을 이용한 MVC 패턴의 커뮤니티 웹 프로젝트로, HTML, CSS, Bootstrap, JavaScript JQuery, 템플릿 엔진 Thymeleaf를 사용하여 웹 페이지를 구성하였고 데이터베이스로 MySQL을 사용했습니다. 
+                      또한 GitHub와 Docker 컨테이너를 활용하여 더욱 수월하게 테스트작업과 협업을 진행하였습니다.
                     <img style="display: block; position: relative; top: 3%; left: 70%; width:30%; height:auto; opacity: 0.2" src="../assets/img/develop2.png">
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
 
-          <div style="text-align: center; margin-top: 1em; margin-bottom: 0;">
-            <div style="display: inline-block; width: 1em; height: 1em; border-radius: 50%; margin: 0 0.5em; 
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div> 
-            <div style="display: inline-block; width: 1em; height: 1em; border-radius: 50%; margin: 0 0.5em; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
-            <div style="display: inline-block; width: 1em; height: 1em; border-radius: 50%; margin: 0 0.5em; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
+          <div id="dot_div">
+            <div></div> 
+            <div></div>
+            <div></div>
 
           </div>
 
 
-           <div style="border-radius: 20px; margin: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-top: 2%;">
+           <div class="projects_div" style="margin-top: 2%;">
             <div class="grid-item">
               <div class="row" style="text-align: center;" >
-                <div class="col-md-6" data-src="../assets/img/cmd_img1.png" 
+                <div class="col-md-6 project_img pro_img" data-src="../assets/img/cmd_img1.png" 
                 data-fancybox data-caption="<h5>서비스 구성</h5>"
-                style="display: inline-block;">
+                style="display: inline-block; text-align: center; object-fit: cover; font-size: 0;">
                   
-                    <img src="../assets/img/cmd_img1.png" alt="" style="cursor: pointer; height: auto;">
+                    <img src="../assets/img/cmd_img1.png">
                   
                 </div>
                 <div class="col-md-6" style="display: inline-block;">
@@ -451,7 +438,7 @@
   <h1 class="text-center fw-normal wow fadeInUp">demo-video</h1>
   <div class="wow zoomIn" style="text-align: center; margin-top: 5%;">
           <div class="video-wrap">
-              <iframe style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" width="560" height="315" src="https://www.youtube.com/embed/x1TdB6zzxnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/x1TdB6zzxnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
   </div>
 
